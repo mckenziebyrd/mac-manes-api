@@ -1,0 +1,38 @@
+{
+    "users" : [
+        {
+            "id": 1,
+            "name": "McKenzie Byrd",
+            "email": "mckenziebyrd@me.com",
+            "password": "mckenzie",
+            "userType": "stylist"
+        },
+        {
+            "id": 2,
+            "name": "Jinx Monsoon",
+            "email": "jinx@gmail.com",
+            "password": "jinx",
+            "userType": "cilent"
+        }
+    ],
+    "messages" : [
+        {
+            "id": 1, 
+            "senderId": 2,
+            "reciepentId": 1, 
+            "message": "test 1",
+            "timestamp": 123456
+        }
+    ],
+    "requests" : [
+        {
+            "id": 1, 
+            "userId": 1,
+            "currentClient": true,
+            "description": "test 1",
+            "hairHistory": "test test 1",
+            "requestedAppointmentDate": 10281993,
+            "requestedAppointmentTime": 1021
+        }
+    ]
+}
